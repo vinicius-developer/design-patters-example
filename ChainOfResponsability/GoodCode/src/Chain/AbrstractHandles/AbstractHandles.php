@@ -7,7 +7,7 @@ use Src\Pedido;
 abstract class AbrstractHandles
 {
 
-    private ?AbrstractHandles $handle = null;
+    protected ?AbrstractHandles $handle = null;
 
     abstract public function next(Pedido $pedido): float;
 
