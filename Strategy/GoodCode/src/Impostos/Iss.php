@@ -8,6 +8,6 @@ class Iss implements ImpostoDefaultInterface
 {
     public function calculaImposto(Orcamento $orcamento): float
     {
-        return $orcamento->valor * 0.06;
+        return $orcamento->valor() * 0.06;
     }
 }
