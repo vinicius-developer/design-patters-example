@@ -2,6 +2,8 @@
 
 namespace Src\Observer\Abstracoes;
 
+use Src\Comandos\GerarPedidos\GerarPedidosHandler;
+
 abstract class DefaultObservable
 {
     /**
@@ -15,10 +17,10 @@ abstract class DefaultObservable
     }
 
 
-    protected function callActions()
+    protected function callActions(GerarPedidosHandler $pedido)
     {
         foreach($this->breadcrumb as $bread) {
-            $bread->acao();
+            $bread->acao($pedido);
         }
     }
 }

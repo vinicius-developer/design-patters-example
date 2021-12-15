@@ -18,6 +18,6 @@ class GerarPedidosHandler extends DefaultObservable
             $pedido->cliente()
         );
 
-        $this->callActions();
+        $this->callActions($this);
     }
 }
