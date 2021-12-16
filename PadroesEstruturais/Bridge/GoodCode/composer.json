@@ -1,0 +1,15 @@
+{
+    "name": "vinicius/good-code",
+    "autoload": {
+        "psr-4": {
+            "Vinicius\\GoodCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius de Paula",
+            "email": "vinicius.silva@akna.com"
+        }
+    ],
+    "require": {}
+}
