@@ -1,0 +1,15 @@
+{
+    "name": "vinicius/trash-code",
+    "autoload": {
+        "psr-4": {
+            "Vinicius\\TrashCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vinicius de Paula",
+            "email": "vincius.silva@akna.com"
+        }
+    ],
+    "require": {}
+}
