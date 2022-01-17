@@ -7,7 +7,7 @@ use Src\Entidades\Orcamento;
 abstract class Desconto 
 {
 
-    protected Desconto $next;
+    protected ?Desconto $next;
     
     public function __construct(Desconto $desconto = null)
     {
